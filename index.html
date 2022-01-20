@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> DOM Animations</title>
+ <style>
+   body {
+     background-color: rgb(41, 60, 60);
+   }
+    #container {
+    height: 400px;
+    width: 400px;
+    background-color: yellow;
+    position: relative;
+  }
+  #animate{
+    height: 50px;
+    width: 50px;
+    background-color: red;
+    position: absolute;
+  }
+  button {
+    border: 3px solid #ccc;
+    padding: 2px 8px;
+    margin-top: 3px;
+    
+  }
+ </style>
+
+</head>
+<body>
+  <div id="container">
+    <div id="animate"></div>
+  </div>
+  <button onclick="myMove()">Animate</button>
+  
+  <script src="app.js"></script>
+</body>
+</html>
